@@ -19,7 +19,7 @@ environment="${environment:-prod}"
 environment="${3:-$environment}"
 location="${location:-eastus}"
 location="${4:-$location}"
-resource_group_name=rg-${project_name}-${environment}
+resource_group_name="rg-${project_name}-${environment}"
 
 showUsage() {
   script_name="$(basename "$0")"
